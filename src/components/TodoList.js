@@ -2,7 +2,9 @@ import React from 'react';
 
 function TodoList() {
   return(
-      <div></div>
+      <div>
+          <h2>This is todo page</h2>
+      </div>
   );
 }
 
