@@ -1,11 +1,12 @@
 import React from "react";
+import '../App.css'
 
 function Form() {
   return (
     <div>
       <form action="">
         <input type="text" className="todo-input" />
-        <button className="todo-button">Add</button>
+        <button className="todo-button">+</button>
         <div className="select">
           <select name="todos" class="filter-todo">
             <option value="all">All</option>
